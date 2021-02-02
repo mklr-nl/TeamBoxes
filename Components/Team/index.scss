@@ -6,11 +6,6 @@
     align-items: center;
   }
   &__member {
-    cursor: pointer;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 0;
     &:hover {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
@@ -35,13 +30,12 @@
   }
 }
 
-.Cover__Team__member__info {
-  padding: 16px;
+.boxPopup {
+  padding: 0 $Grid-gutter-half;
   &__text {
     padding: 6px 0;
   }
   &__title {
-    padding-bottom: 15px;
     font-size: 2rem;
   }
   &__link {
