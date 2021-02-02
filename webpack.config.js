@@ -36,7 +36,7 @@ module.exports = (env) => {
     devServer: {
       contentBase: path.join(__dirname),
       compress: true,
-      port: 9000,
+      port: 8080,
     },
     devtool: env.local ? "inline-source-map" : "nosources-source-map",
     optimization,

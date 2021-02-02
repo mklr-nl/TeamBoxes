@@ -1,8 +1,8 @@
 // * Selectors
-let box1 = document.getElementById("Box1");
-let box2 = document.getElementById("Box2");
-let member1 = document.getElementById("member1");
-let member2 = document.getElementById("member2");
+let box1 = document.getElementById("boxOne");
+let box2 = document.getElementById("boxTwo");
+let member1 = document.querySelector(".Team__member__info");
+let memberCover = document.querySelector(".Cover__Team__member__info");
 
 // * Eventlisteners
 box1.addEventListener("click", changeBox);
@@ -10,5 +10,6 @@ box1.addEventListener("click", changeBox);
 // * Functions
 function changeBox() {
   console.log("hello Danny");
-  box2.classList.add("hide");
+  box2.classList.toggle("hide");
+  memberCover.classList.toggle("hide");
 }
