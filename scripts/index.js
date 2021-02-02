@@ -1,6 +1,6 @@
 import "../styles/index.scss";
 import "./charts";
 import "./observer";
-import "./Header";
+import "./header";
 import "./login";
-import "../Components/Team/Index";
+import "../Components/Team";
