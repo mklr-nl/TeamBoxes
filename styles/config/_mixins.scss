@@ -1,0 +1,24 @@
+@import "../grid/mixins";
+
+@mixin h1{
+    font-size: 3rem;
+    padding-top: $Grid-gutter-half;
+    padding-bottom: $Grid-gutter-half;
+    font-weight: 800;
+}
+
+
+@mixin btn($textColor, $backgroundColor, $hoverColor) {
+    padding: 0px 10px;
+    background-color: $backgroundColor;
+    cursor: pointer;
+    color: $textColor;
+    border: none;
+    outline: none;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    border-radius: 5px;
+    &:hover{
+      background-color: $hoverColor;
+    }
+}

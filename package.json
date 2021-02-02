@@ -1,0 +1,29 @@
+{
+  "name": "chartrace",
+  "private": true,
+  "scripts": {
+    "start": "npx webpack serve --env local",
+    "build": "npx webpack --env production",
+    "test": "npx webpack serve --env production"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.1.0",
+    "css-loader": "^5.0.1",
+    "css-minimizer-webpack-plugin": "^1.1.5",
+    "mini-css-extract-plugin": "^1.3.3",
+    "postcss": "^8.2.1",
+    "postcss-loader": "^4.1.0",
+    "sass": "^1.30.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.10.3",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

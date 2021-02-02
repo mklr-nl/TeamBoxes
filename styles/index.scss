@@ -1,0 +1,14 @@
+@import "config/functions";
+@import "config/variables";
+@import "config/mixins";
+@import "config/functions";
+@import "config/keyframes";
+
+@import "style.css";
+@import "grid/index";
+
+// Homepage import
+@import "homepage/Header";
+
+//Team import
+@import "../Components/Team/index";

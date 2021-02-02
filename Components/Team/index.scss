@@ -1,0 +1,27 @@
+.Team {
+  .container {
+    height: 100%;
+  }
+  .row {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__member {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+    &__title {
+      font-size: 1rem;
+      position: absolute;
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+}
