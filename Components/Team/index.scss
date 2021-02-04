@@ -48,12 +48,20 @@
 }
 
 .boxPopup {
-  z-index: -10;
+  z-index: -1;
   transition: 1s ease-in-out all;
   position: absolute;
   bottom: 0;
   top: 0;
   padding: $Grid-gutter-half;
+  &__icon {
+    cursor: pointer;
+    margin: $Grid-gutter-half;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
   &__text {
     padding-top: $Grid-gutter-half;
     font-size: 13.5px;
